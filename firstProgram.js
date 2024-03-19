@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 "use strict";
 let winningNumber = 120;
 let userGuess = prompt("Guess a number");

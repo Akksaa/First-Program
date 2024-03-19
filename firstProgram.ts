@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 let winningNumber : any = 120;
 let userGuess :any = prompt("Guess a number");
 if (userGuess == winningNumber) {
