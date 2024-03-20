@@ -3,7 +3,7 @@ export{};
 import inquirer from "inquirer";
 let winningNumber : any = 120;
 let userGuess :any = await inquirer.prompt([{
-message:"Guess a number",
+message:"Guess a number:",
 type: "number",
 name:"num"
 }]);

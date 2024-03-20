@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 let winningNumber = 120;
 let userGuess = await inquirer.prompt([{
-        message: "Guess a number",
+        message: "Guess a number:",
         type: "number",
         name: "num"
     }]);
