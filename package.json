@@ -1,15 +1,21 @@
 {
   "name": "aks07-number-guessing-game",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "main": "firstProgram.js",
-  "bin": {
-    "typescript": "firstProgram.js"
-  },
+  "type": "module",
+  "bin": "firstProgram.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "inquirer": "^9.2.16",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
 }
